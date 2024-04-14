@@ -1,0 +1,9 @@
+This HTTP server supports GET and PUT requests. Multi-threading is implemented with a thread-pool design.
+
+To use the server, generate an executable with the command "make" in a directory with all of the required files.
+
+After compilation, the server can be started with the command:
+
+  /httpserver <port> <num_threads>
+
+Connect to the server's port and input a request following the HTTP 1.1 formnat.
